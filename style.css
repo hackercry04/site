@@ -1,0 +1,309 @@
+*{
+
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+body{
+  
+  
+
+    background-color: #232323;
+    overflow-x: hidden;
+}
+.header
+{
+    height: 100vh;
+    width: 100%;
+}
+.navbar{
+
+
+    padding: 15px 15px !important;
+    background-color: #232323;
+}
+.logo{
+
+    font-weight: 600;
+    color: white;
+}
+.nav-item{
+
+ margin: 0 10px;
+}
+
+.nav-item .nav-link{
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link::after{
+
+
+    content: '';
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    background-color: rgb(255,129,57);
+    width: 0%;
+    height: 3px;
+    transition: 0.4s ease-in-out;
+}
+.home-span{
+
+    color:rgb(255,129,57)
+}
+
+.nav-item:hover .nav-link::after{
+width: 100%;
+    
+}
+
+
+
+.nav-link:hover{
+
+    color: rgb(255,129,57);
+}
+
+
+
+
+
+
+
+
+.btn-navbar{
+    display: inline-block;
+    padding:10px 43px;
+    border: 1px solid rgb(36, 193,255);
+    color:white;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(36, 193, 255);
+}
+
+
+/*home */
+
+
+.content-home2{
+
+
+
+    height:90vh;    
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.home-heading{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 74px;
+
+
+
+}
+
+.para-home{
+
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.42);
+    max-width: 400px;
+    line-height: 24px;
+    margin: 14px 0px;
+
+
+}
+.home-links{
+
+    display: inline-block;
+    padding:10px 43px;
+    border: 1px solid rgb(36, 193,255);
+    color:rgb(28, 14, 14);
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    background-color: rgb(36, 193, 255);
+
+}
+.img-home
+{
+
+    margin: right 20px;
+    width: 580px;
+}
+
+/**about us**/
+
+.about-us-container
+{
+
+
+    width: 100%;
+    height: 80vh;
+}
+
+.about-us{
+
+
+    width: 100%;
+    height: 400px;
+    background-color: rgb(54,54,54);
+    margin-top:140px;
+}
+.content-about{
+font-size: 20px;
+    padding: 10px 38px;
+}
+
+.heading-about{
+
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color:rgb(255,129,57);
+    margin:10px 0px;
+    margin-bottom: 34px;
+}
+
+
+.link-about
+{
+
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid rgb(255,129,57,0.5);
+    color:rgb(255,129,57);
+    display: inline-block;
+    font-size: 600;
+    padding:8px 22px;
+}
+
+.image-about
+{
+
+
+  
+position: relative;
+top: -36px;
+right: 20px;
+    
+}
+
+.product-catagory{
+
+    width:100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;
+}
+.heading-product{
+
+    font-size: 34px;
+    color: rgb(255,129,57);
+    margin-bottom: 120px;
+    position: relative;
+}
+.img-card{
+
+    height: 190px !important;
+
+}
+.card-text{
+
+    color:white;
+    font-size: 13px;
+    line-height: 22px;
+}
+.card{
+    display: flex;
+
+    padding: 14px   10px;
+    background-color: #232323 !important;
+}
+.card-title{
+    color: rgb(255,129,57);
+}
+
+
+
+
+
+/*contact form*/
+
+.contact-form{
+
+    width: 100%;
+    height: 100vh;
+    margin-top: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.heading-contact{
+
+
+    font-size: 34px;
+    color: rgb(255,129,57);
+    margin-bottom: 129px;
+    position: relative;
+}
+.form-origin{
+
+    width:100%;
+height: 480px;
+background-color: rgb(42,41,41);
+padding: 50px 30px;
+border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+/*footer*/
+
+.para-footer
+{
+
+        height:100%;
+
+
+    background-color: rgb(4,4,4);
+    margin:0px 0px!important;
+    height:10vh;
+    margin-top: 30px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+
+}
+.m{
+
+    color: rgb(255,129,57);
+}
+footer{
+    position: relative;
+}
+
+
+
